@@ -1,5 +1,5 @@
 #### 1. create laravel project <br>
-composer global require "laravel/installer:^4.0"
+composer global require "laravel/installer:^4.0" <br>
 laravel new twilmo && cd twilmo
 
 #### 2. install breeze
