@@ -10,8 +10,9 @@ php artisan breeze:install react <br>
 npm install     <br>
 npm run dev     <br>
 
-#### 4. install stripe
-composer require stripe/stripe-php
+#### 4. install stripe (PHP, React)
+composer require stripe/stripe-php  <br>
+npm install @stripe/react-stripe-js @stripe/stripe-js  
 
 ### 5. add the following code to the config/service.php
 
