@@ -13,4 +13,11 @@ npm run dev     <br>
 #### 4. install stripe
 composer require stripe/stripe-php
 
+### 5. add the following code to the config/service.php
+
+'stripe' => [                <br>
+        'secret' => env('STRIPE_SECRET'),    <br>
+    ],                       <br>
+
+
 
